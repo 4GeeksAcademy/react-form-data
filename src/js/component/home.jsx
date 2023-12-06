@@ -24,7 +24,7 @@ const Home = () => {
     const r = await fetch("https://httpbin.org/anything", {
       method: "POST",
       Accept: "application/json",
-      "Content-Type": "multipart/form-data",
+      // "Content-Type": "multipart/form-data",
       body: form,
     });
 
